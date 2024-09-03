@@ -1,0 +1,154 @@
+{
+    "type": "script",
+    "title": "🚀 18-in-1 Payment",
+    "description": "This is an airdrop of ALDEA tokens to all students who completed the first cohort of the Cardano Developer Course at ALBA",
+    "args":{
+        "addressA": "addr1qyecrume3vv8kgdt56rajp876cy5frjyyz7svqg6as46xp8ek7gl47e8g3p68gf2rsyt657dk6xxzv3wlgyhur74f88sf8da28",
+        "addressB": "addr1qx5h2ma3qe53crazdpwnwn6k4d74ezwme84atyp32m2ja6kf5zkhwnp8jrxp9jznkdm96ff4yxzf279y8zgeuw3wwdls5k2kg9",
+        "addressC": "addr1qypcyeahh2fvg0gw0fnt7a49kcj2sd740ykaj3s27tltzdmzxvq8rdjp0n2fe8fmzjfjudevdkna9g4505ahtctpteqqksesk2",
+        "addressD": "addr1qyteet3q33zgpfy4nnp3zpvpuh0ku2adakm695yrjzcl440wmrftgkdpf8p92kdrdu2xkvef8af0rqr3z99aancr9plskman70",
+        "addressE": "addr1qy3w9la5fs3mlztfnu9etav6a2gjcd2u2ncl0z3q8pwuvcgmuzya3luhf9rku85awpa34qw0qs7lrtf6c7lr6hxxdnfq49eeya",
+        "addressF": "addr1qxz6p4dwwtuvh9e6wr54dds90q49ht6f5fmeu6mztgwqpzfckvwwd4q6jemecwatjhph8ay360mxxcmyskx7qm9pz3msntggxy",
+        "addressG": "addr1qx5dta2yrwzgyvgxglzkqu7a422ys4rl69lv78cc7zu3ruyk2kmxyqdhgt5eklwdgm95rk0nk04lzdnfvff4vm6jkxcqqste89",
+        "addressH": "addr1qx3tarchn3v0kc4auqlf6k0vmm9a8v6g975kan8p7xm9f0de6tpvlq47jt6xjhl05ugx6djxxwsshh08nrkam0gjjzgqah8njc",
+        "addressI": "addr1qx9szchuk3r078j0cswl932xqana9hkdl073cta2ndv34af7wnytlxp0h3e6frvm4xcc9hduhadvc4yjp6n5sr4dlzqqhmafnx",
+        "addressJ": "addr1qy7vfrmysen839s7xfth6pf2u69y7nu97v9es2yfauzjmdk2yxgeqaxjfkusgk275wkhzph3tnhw28y92wfwwpncj53qfzsh6t",
+        "addressK": "addr1qydzkrthhtmz2kgxjglzls0xut7kp5ruscqsgs7pffvvcspftu49zx7dkeq4e0x2ypcxj0p07xshzh439ht3dwqhsejqq2u0rk",
+        "addressL": "addr1qx3ee2709rsekvq9rge9mpp2xmxrmmnqqge57ysd6uh7jd3nsqstdarak4qxkwk642jfytwf6e8nzlqu9jmfq4nf2nysw3xm0j",
+        "addressM": "addr1qy2mc5nt6whqcvfa6g4cs2u79xhfyccjj5s0plqjr7c3w6y00p7l62x3fwp9vq45kqur7wev3tkqe0sllut8eqwjm67qwnm0el",
+        "addressN": "addr1qyzdp47d2x0p76d03vuta9glkwz6jl2769ntjt73e8hqqxkt2rpsk5kksgvcg4ssmk8rndcsudre79w252enqy0mcnzql90842",
+        "addressO": "addr1q8s08ezdjmh9p8t2km3d4r6xzf2v5q0hqzf673zfm3y89a7dyh3a5uar88ugzks5w55470s557n9s6qrlh5rtxv6mgfq5vhs00",
+        "addressP": "addr1qxv5xd9dpls8swam4nfegasc5fnwyuv5tqyfa7kv0t5ld7a2ytkrattjj7rs9xp693mq38e69wgmve76fa8ezpp045yqjx55k9",
+        "addressQ": "addr1qy2fw5swg5ec0a8jgp2pml4v6ndkk4hcfzlk45yu2gj5umjdxlmwmvy8pcdutcn3pepln7aqglmjlk6z4xcq5vlzdnksz3shhs",
+        "addressR": "addr1q9cx9zm03rxn0lgldtrcmjtjdalxxjmhrzkpapx8mvxdmkmwlau5yqq309v89mu9qjsctq2mqk92uyymxy799hlpqrrqp34jcd"
+    },
+    "exportAs": "multiPayment",
+    "return": {
+        "mode": "last"
+    },
+    "run": {
+        "assetsToSend":{
+            "type":"data",
+            "value": {
+                "completed": [
+                    {
+                        "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
+                        "assetName": "414c444541",
+                        "quantity": "25000000000"
+                    }
+                ],
+                "passed": [
+                    {
+                        "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
+                        "assetName": "414c444541",
+                        "quantity": "35000000000"
+                    }
+                ],
+                "honors": [
+                    {
+                        "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
+                        "assetName": "414c444541",
+                        "quantity": "50000000000"
+                    }
+                ]
+            }
+        },
+        "build": {
+            "type": "buildTx",
+            "title": "🚀 18-in-1 Payment",
+            "tx": {
+                "outputs": [
+                    {
+                        "address":"{get('args.addressA')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressB')}",
+                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressC')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressD')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressE')}",
+                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressF')}",
+                        "assets":"{get('cache.assetsToSend.honors.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressG')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressH')}",
+                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressI')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressJ')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressK')}",
+                        "assets":"{get('cache.assetsToSend.honors.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressL')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressM')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressN')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressO')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressP')}",
+                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressQ')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    },
+                    {
+                        "address":"{get('args.addressR')}",
+                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                    }
+                ]
+            }
+        },
+        "sign": {
+            "type": "signTxs",
+            "detailedPermissions": false,
+            "txs": [
+                "{get('cache.build.txHex')}"
+            ]
+        },
+        "submit": {
+            "type": "submitTxs",
+            "txs": "{get('cache.sign')}"
+        },
+        "results": {
+            "type": "macro",
+            "run": {
+                "txHash":"{get('cache.build.txHash')}"
+            }
+        }
+    }
+}
