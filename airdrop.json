@@ -60,75 +60,75 @@
                 "outputs": [
                     {
                         "address":"{get('args.addressA')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressB')}",
-                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                        "assets":"{get('cache.assetsToSend.passed')}"
                     },
                     {
                         "address":"{get('args.addressC')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressD')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressE')}",
-                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                        "assets":"{get('cache.assetsToSend.passed')}"
                     },
                     {
                         "address":"{get('args.addressF')}",
-                        "assets":"{get('cache.assetsToSend.honors.0')}"
+                        "assets":"{get('cache.assetsToSend.honors')}"
                     },
                     {
                         "address":"{get('args.addressG')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressH')}",
-                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                        "assets":"{get('cache.assetsToSend.passed')}"
                     },
                     {
                         "address":"{get('args.addressI')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressJ')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressK')}",
-                        "assets":"{get('cache.assetsToSend.honors.0')}"
+                        "assets":"{get('cache.assetsToSend.honors')}"
                     },
                     {
                         "address":"{get('args.addressL')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressM')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressN')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressO')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressP')}",
-                        "assets":"{get('cache.assetsToSend.passed.0')}"
+                        "assets":"{get('cache.assetsToSend.passed')}"
                     },
                     {
                         "address":"{get('args.addressQ')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     },
                     {
                         "address":"{get('args.addressR')}",
-                        "assets":"{get('cache.assetsToSend.completed.0')}"
+                        "assets":"{get('cache.assetsToSend.completed')}"
                     }
                 ]
             }
