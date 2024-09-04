@@ -33,21 +33,21 @@
                 "completed": [
                     {
                         "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
-                        "assetName": "414c444541",
+                        "assetName": "ALDEA",
                         "quantity": "25000000000"
                     }
                 ],
                 "passed": [
                     {
                         "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
-                        "assetName": "414c444541",
+                        "assetName": "ALDEA",
                         "quantity": "35000000000"
                     }
                 ],
                 "honors": [
                     {
                         "policyId": "37f9b0f7e6a46d03b46c8f167f3e8f27008bbfe68b2908d34bd5a673",
-                        "assetName": "414c444541",
+                        "assetName": "ALDEA",
                         "quantity": "50000000000"
                     }
                 ]
